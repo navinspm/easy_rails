@@ -29,4 +29,4 @@ wget --no-check-certificate  https://raw.githubusercontent.com/navinspm/easy_rai
 
 
 
-Feel free to pull and add the things you feel as necesary for rails developers
+Feel free to pull and add the things you feel as necesary for Ruby on Rails Development :smiley:

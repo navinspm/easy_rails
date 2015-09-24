@@ -3,7 +3,7 @@ Make your Linux system ready for Rails development with single shell script
 
 if you want your Linux System to be ready in some minutes for rails development use this shell script.<br>
 
-To run this script on your Linux terminal just run bash 
+To run this script on your Linux terminal run wget --no-check-certificate  https://raw.githubusercontent.com/navinspm/easy_rails/master/easy_rails.sh && bash easy_rails.sh
 
 By running this shell script the following will be installed in your system. <br><br>
 

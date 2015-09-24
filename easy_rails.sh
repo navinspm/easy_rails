@@ -1,4 +1,5 @@
-echo "=> Start to add some necessary libraries to system"
+echo "Now script going to install all the necessary fiel for rails development"
+echo "Start to add some necessary libraries to system"
 sudo apt-get update
 sudo apt-get --ignore-missing install build-essential git-core curl openssl libssl-dev libcurl4-openssl-dev zlib1g zlib1g-dev libreadline-dev libreadline6 libreadline6-dev libyaml-dev libsqlite3-dev libsqlite3-0 sqlite3 libxml2-dev libxslt1-dev python-software-properties libffi-dev libgdm-dev libncurses5-dev automake autoconf libtool bison postgresql postgresql-contrib libpq-dev pgadmin3 libc6-dev nodejs -y
 

@@ -8,9 +8,6 @@ sudo apt-get --ignore-missing install build-essential git-core curl openssl libs
 echo "adding node.js runtime"
 sudo add-apt-repository ppa:chris-lea/node.js
 
-echo "Installing ImageMagick for image processing"
-sudo apt-get install imagemagick --fix-missing -y
-
 echo "Installing RVM (Ruby Version Manager)"
 curl -sSL https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
@@ -32,6 +29,9 @@ echo "Installing sublime-text editor version 3"
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
+
+echo "Installing ImageMagick for image processing"
+sudo apt-get install imagemagick --fix-missing -y
 
 echo "Installing required gems - carrierwave, rmagick, devise"
 gem install carrrierwave

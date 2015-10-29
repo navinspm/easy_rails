@@ -17,7 +17,7 @@ rvm install ruby --latest
 
 echo "Installing latest version of Rails"
 gem install bundler
-gem install rails
+gem install rails --no-ri --no-rdoc
 
 echo "Installing Git - version control system"
 sudo apt-get install git

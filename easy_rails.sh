@@ -36,7 +36,7 @@ sudo apt-get install imagemagick --fix-missing -y
 
 echo "Installing required gems - carrierwave, rmagick, devise"
 gem install carrrierwave
-gem isntall rmagick
+gem install rmagick
 gem install devise
 
 echo "Yeahhh!! Completed!!!!!!!!!!!!!!!!!"
